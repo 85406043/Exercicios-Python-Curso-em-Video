@@ -1,0 +1,10 @@
+string = input("Type somenthing: ")
+
+print("The primitive is {};".format(type(string)))
+print("Number: {};".format(string.isnumeric()))
+print("Alfabetic: {};".format(string.isalpha()))
+print("Alphanumeric: {};".format(string.isalnum()))
+print("This is in uppercase: {};".format(string.isupper()))
+print("This is in lowercase: {};".format(string.islower()))
+print("This capitalize: {};".format(string.istitle()))
+print("There are only spaces: {};".format(string.isspace()))

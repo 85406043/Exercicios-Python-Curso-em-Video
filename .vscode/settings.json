@@ -1,0 +1,56 @@
+{
+  // Aparência geral
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "JetBrains Mono, Consolas, monospace",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 22,
+  "editor.fontLigatures": "'calt', 'liga",
+
+  // Editor
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "selection",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+
+  // Linhas e indentação
+  "editor.lineNumbers": "on",
+  "editor.detectIndentation": false,
+
+  // Arquivos
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // Explorer
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // Terminal
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.cursorBlinking": true,
+
+  // Zen Mode (foco)
+  "zenMode.hideActivityBar": true,
+  "zenMode.hideStatusBar": true,
+  "zenMode.fullScreen": false,
+
+  // Git
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+
+  // Performance
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "python-envs.defaultEnvManager": "ms-python.python:venv",
+  "python-envs.pythonProjects": [],
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "editor.fontVariations": false
+}
