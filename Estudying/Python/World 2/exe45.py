@@ -22,4 +22,31 @@ time.sleep(1)
 print("PO!!!")
 
 #conditions
+if userChoise == choiseCPU:
+  print("Draw")
 
+elif userChoise != choiseCPU:
+  if userChoise == 1 and choiseCPU == "Paper":
+    print("User selected Rock")
+    print(f"CPU selected {choiseCPU}")
+    print("CPU Win")
+  elif userChoise == 2 and choiseCPU == "Scissors":
+    print("User selected Paper")
+    print(f"CPU selected {choiseCPU}")
+    print("CPU Win")
+  elif userChoise == 3 and choiseCPU == "Rock":
+    print("User selected Scissors")
+    print(f"CPU selected {choiseCPU}")
+    print("CPU win")
+  elif choiseCPU == "Rock" and userChoise == 2:
+    print("User selected Paper")
+    print(f"CPU selected {choiseCPU}")
+    print("User Win")
+  elif choiseCPU == "Paper" and userChoise == 3:
+    print("User selected Scissors")
+    print(f"CPU selected {choiseCPU}")
+    print("User Wind")
+  elif choiseCPU == "Scissors" and userChoise == 1:
+    print("User selected Rock")
+    print(f"CPU selected {choiseCPU}")
+    print("User Win")
