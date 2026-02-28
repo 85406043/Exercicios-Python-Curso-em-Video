@@ -196,8 +196,4 @@ while True :
         print("\n\033[1;31mPor favor, escolha uma opção !\n\033[m")
         sleep(3)
         limpar_tela()
-
-
-
-
-
+        
