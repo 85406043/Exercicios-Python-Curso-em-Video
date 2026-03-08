@@ -1,6 +1,6 @@
 #variables and lists
 userOld = ["", 0, ""] #age man
-ageWoman = 0
+ageWomen = 0 #counter age women
 calcAgeUsers = 0 #average
 
 #loop
@@ -14,8 +14,9 @@ for data in range(1, 5):
     userOld.append(nameUser)
     userOld.append(ageUser)
     userOld.append(sexUser)
+  #women
   elif sexUser == "F" and ageUser < 20:
-    ageWoman += 1
+    ageWomen += 1
 
 #calc average
 calcMedia = calcAgeUsers / 4
@@ -23,4 +24,4 @@ calcMedia = calcAgeUsers / 4
 #show result
 print(f"The average age of the group is {calcMedia} anos.")
 print(f"The oldest man is {userOld[1]} years old, and his name is {userOld[0]}.")
-print(f"In total, there are {ageWoman} women under the of 20.")
+print(f"In total, there are {ageWomen} women under the of 20.")
