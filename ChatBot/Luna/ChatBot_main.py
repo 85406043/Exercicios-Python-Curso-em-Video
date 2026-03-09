@@ -429,7 +429,7 @@ CONFIG = {
         "cidade": "",  # Detecta automaticamente se vazio
         "pais": "BR",
         "cache_clima_minutos": 30,
-        "openweather_api_key": "f00b94a7fff85ebe40a259c86891d953",  # COLOQUE SUA API KEY DO OPENWEATHERMAP AQUI
+        "openweather_api_key": "",  # COLOQUE SUA API KEY DO OPENWEATHERMAP AQUI
         # Pegar em: https://openweathermap.org/api (grátis)
     },
 
