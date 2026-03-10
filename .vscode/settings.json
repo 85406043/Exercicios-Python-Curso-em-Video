@@ -41,8 +41,7 @@
   // Performance
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
-  "python-envs.defaultEnvManager": "ms-python.python:venv",
-  "python-envs.pythonProjects": [],
+  "python-envs.defaultEnvManager": "ms-python.python:system",
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "editor.fontVariations": false
 }
